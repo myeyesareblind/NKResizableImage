@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25ADDC3D18D8601E001042F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ADDC3C18D8601E001042F1 /* Cocoa.framework */; };
+		25ADDC4718D8601E001042F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC4518D8601E001042F1 /* InfoPlist.strings */; };
+		25ADDC4918D8601E001042F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC4818D8601E001042F1 /* main.m */; };
+		25ADDC4D18D8601E001042F1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC4B18D8601E001042F1 /* Credits.rtf */; };
+		25ADDC5018D8601E001042F1 /* NKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC4F18D8601E001042F1 /* NKAppDelegate.m */; };
+		25ADDC5318D8601E001042F1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC5118D8601E001042F1 /* MainMenu.xib */; };
+		25ADDC5518D8601E001042F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC5418D8601E001042F1 /* Images.xcassets */; };
+		25ADDC5C18D8601E001042F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ADDC5B18D8601E001042F1 /* XCTest.framework */; };
+		25ADDC5D18D8601E001042F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ADDC3C18D8601E001042F1 /* Cocoa.framework */; };
+		25ADDC6518D8601E001042F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC6318D8601E001042F1 /* InfoPlist.strings */; };
+		25ADDC6718D8601E001042F1 /* ResizableButtonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC6618D8601E001042F1 /* ResizableButtonTestTests.m */; };
+		25ADDC7718D860F2001042F1 /* NKResizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC7218D860F2001042F1 /* NKResizableImage.m */; };
+		25ADDC7E18D8860C001042F1 /* NKDrawNinePartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC7D18D8860C001042F1 /* NKDrawNinePartImageView.m */; };
+		25ADDC8018D887FA001042F1 /* tile_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC7F18D887FA001042F1 /* tile_panel.png */; };
+		25ADDC8318D8887D001042F1 /* NKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC8218D8887D001042F1 /* NKTestViewController.m */; };
+		25D27F7318D8AFF0009E7F3E /* NKResizableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D27F7218D8AFF0009E7F3E /* NKResizableButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25ADDC5E18D8601E001042F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25ADDC3118D8601E001042F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25ADDC3818D8601E001042F1;
+			remoteInfo = ResizableButtonTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25ADDC3918D8601E001042F1 /* ResizableButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResizableButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25ADDC3C18D8601E001042F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25ADDC3F18D8601E001042F1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25ADDC4018D8601E001042F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25ADDC4118D8601E001042F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25ADDC4418D8601E001042F1 /* ResizableButtonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizableButtonTest-Info.plist"; sourceTree = "<group>"; };
+		25ADDC4618D8601E001042F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25ADDC4818D8601E001042F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25ADDC4A18D8601E001042F1 /* ResizableButtonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResizableButtonTest-Prefix.pch"; sourceTree = "<group>"; };
+		25ADDC4C18D8601E001042F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25ADDC4E18D8601E001042F1 /* NKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKAppDelegate.h; sourceTree = "<group>"; };
+		25ADDC4F18D8601E001042F1 /* NKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NKAppDelegate.m; sourceTree = "<group>"; };
+		25ADDC5218D8601E001042F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		25ADDC5418D8601E001042F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25ADDC5A18D8601E001042F1 /* ResizableButtonTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResizableButtonTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25ADDC5B18D8601E001042F1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		25ADDC6218D8601E001042F1 /* ResizableButtonTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizableButtonTestTests-Info.plist"; sourceTree = "<group>"; };
+		25ADDC6418D8601E001042F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25ADDC6618D8601E001042F1 /* ResizableButtonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizableButtonTestTests.m; sourceTree = "<group>"; };
+		25ADDC7118D860F2001042F1 /* NKResizableImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKResizableImage.h; sourceTree = "<group>"; };
+		25ADDC7218D860F2001042F1 /* NKResizableImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKResizableImage.m; sourceTree = "<group>"; };
+		25ADDC7C18D8860C001042F1 /* NKDrawNinePartImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDrawNinePartImageView.h; sourceTree = "<group>"; };
+		25ADDC7D18D8860C001042F1 /* NKDrawNinePartImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKDrawNinePartImageView.m; sourceTree = "<group>"; };
+		25ADDC7F18D887FA001042F1 /* tile_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_panel.png; sourceTree = "<group>"; };
+		25ADDC8118D8887D001042F1 /* NKTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTestViewController.h; sourceTree = "<group>"; };
+		25ADDC8218D8887D001042F1 /* NKTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTestViewController.m; sourceTree = "<group>"; };
+		25D27F7118D8AFF0009E7F3E /* NKResizableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKResizableButton.h; sourceTree = "<group>"; };
+		25D27F7218D8AFF0009E7F3E /* NKResizableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKResizableButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25ADDC3618D8601E001042F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ADDC3D18D8601E001042F1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25ADDC5718D8601E001042F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ADDC5D18D8601E001042F1 /* Cocoa.framework in Frameworks */,
+				25ADDC5C18D8601E001042F1 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25ADDC3018D8601E001042F1 = {
+			isa = PBXGroup;
+			children = (
+				25ADDC4218D8601E001042F1 /* ResizableButtonTest */,
+				25ADDC6018D8601E001042F1 /* ResizableButtonTestTests */,
+				25ADDC3B18D8601E001042F1 /* Frameworks */,
+				25ADDC3A18D8601E001042F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25ADDC3A18D8601E001042F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDC3918D8601E001042F1 /* ResizableButtonTest.app */,
+				25ADDC5A18D8601E001042F1 /* ResizableButtonTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25ADDC3B18D8601E001042F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDC3C18D8601E001042F1 /* Cocoa.framework */,
+				25ADDC5B18D8601E001042F1 /* XCTest.framework */,
+				25ADDC3E18D8601E001042F1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25ADDC3E18D8601E001042F1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDC3F18D8601E001042F1 /* AppKit.framework */,
+				25ADDC4018D8601E001042F1 /* CoreData.framework */,
+				25ADDC4118D8601E001042F1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25ADDC4218D8601E001042F1 /* ResizableButtonTest */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDC7F18D887FA001042F1 /* tile_panel.png */,
+				25ADDC7018D860F2001042F1 /* Library */,
+				25ADDC4E18D8601E001042F1 /* NKAppDelegate.h */,
+				25ADDC4F18D8601E001042F1 /* NKAppDelegate.m */,
+				25ADDC5118D8601E001042F1 /* MainMenu.xib */,
+				25ADDC5418D8601E001042F1 /* Images.xcassets */,
+				25ADDC4318D8601E001042F1 /* Supporting Files */,
+				25ADDC8118D8887D001042F1 /* NKTestViewController.h */,
+				25ADDC8218D8887D001042F1 /* NKTestViewController.m */,
+			);
+			path = ResizableButtonTest;
+			sourceTree = "<group>";
+		};
+		25ADDC4318D8601E001042F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDC4418D8601E001042F1 /* ResizableButtonTest-Info.plist */,
+				25ADDC4518D8601E001042F1 /* InfoPlist.strings */,
+				25ADDC4818D8601E001042F1 /* main.m */,
+				25ADDC4A18D8601E001042F1 /* ResizableButtonTest-Prefix.pch */,
+				25ADDC4B18D8601E001042F1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25ADDC6018D8601E001042F1 /* ResizableButtonTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDC6618D8601E001042F1 /* ResizableButtonTestTests.m */,
+				25ADDC6118D8601E001042F1 /* Supporting Files */,
+			);
+			path = ResizableButtonTestTests;
+			sourceTree = "<group>";
+		};
+		25ADDC6118D8601E001042F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDC6218D8601E001042F1 /* ResizableButtonTestTests-Info.plist */,
+				25ADDC6318D8601E001042F1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25ADDC7018D860F2001042F1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				25ADDC7C18D8860C001042F1 /* NKDrawNinePartImageView.h */,
+				25ADDC7D18D8860C001042F1 /* NKDrawNinePartImageView.m */,
+				25ADDC7118D860F2001042F1 /* NKResizableImage.h */,
+				25ADDC7218D860F2001042F1 /* NKResizableImage.m */,
+				25D27F7118D8AFF0009E7F3E /* NKResizableButton.h */,
+				25D27F7218D8AFF0009E7F3E /* NKResizableButton.m */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25ADDC3818D8601E001042F1 /* ResizableButtonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25ADDC6A18D8601E001042F1 /* Build configuration list for PBXNativeTarget "ResizableButtonTest" */;
+			buildPhases = (
+				25ADDC3518D8601E001042F1 /* Sources */,
+				25ADDC3618D8601E001042F1 /* Frameworks */,
+				25ADDC3718D8601E001042F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResizableButtonTest;
+			productName = ResizableButtonTest;
+			productReference = 25ADDC3918D8601E001042F1 /* ResizableButtonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25ADDC5918D8601E001042F1 /* ResizableButtonTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25ADDC6D18D8601E001042F1 /* Build configuration list for PBXNativeTarget "ResizableButtonTestTests" */;
+			buildPhases = (
+				25ADDC5618D8601E001042F1 /* Sources */,
+				25ADDC5718D8601E001042F1 /* Frameworks */,
+				25ADDC5818D8601E001042F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25ADDC5F18D8601E001042F1 /* PBXTargetDependency */,
+			);
+			name = ResizableButtonTestTests;
+			productName = ResizableButtonTestTests;
+			productReference = 25ADDC5A18D8601E001042F1 /* ResizableButtonTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25ADDC3118D8601E001042F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = myeyesareblind;
+				TargetAttributes = {
+					25ADDC5918D8601E001042F1 = {
+						TestTargetID = 25ADDC3818D8601E001042F1;
+					};
+				};
+			};
+			buildConfigurationList = 25ADDC3418D8601E001042F1 /* Build configuration list for PBXProject "ResizableButtonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25ADDC3018D8601E001042F1;
+			productRefGroup = 25ADDC3A18D8601E001042F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25ADDC3818D8601E001042F1 /* ResizableButtonTest */,
+				25ADDC5918D8601E001042F1 /* ResizableButtonTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25ADDC3718D8601E001042F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ADDC4718D8601E001042F1 /* InfoPlist.strings in Resources */,
+				25ADDC5518D8601E001042F1 /* Images.xcassets in Resources */,
+				25ADDC8018D887FA001042F1 /* tile_panel.png in Resources */,
+				25ADDC4D18D8601E001042F1 /* Credits.rtf in Resources */,
+				25ADDC5318D8601E001042F1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25ADDC5818D8601E001042F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ADDC6518D8601E001042F1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25ADDC3518D8601E001042F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ADDC8318D8887D001042F1 /* NKTestViewController.m in Sources */,
+				25ADDC7718D860F2001042F1 /* NKResizableImage.m in Sources */,
+				25ADDC4918D8601E001042F1 /* main.m in Sources */,
+				25ADDC5018D8601E001042F1 /* NKAppDelegate.m in Sources */,
+				25D27F7318D8AFF0009E7F3E /* NKResizableButton.m in Sources */,
+				25ADDC7E18D8860C001042F1 /* NKDrawNinePartImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25ADDC5618D8601E001042F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25ADDC6718D8601E001042F1 /* ResizableButtonTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25ADDC5F18D8601E001042F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25ADDC3818D8601E001042F1 /* ResizableButtonTest */;
+			targetProxy = 25ADDC5E18D8601E001042F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25ADDC4518D8601E001042F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25ADDC4618D8601E001042F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25ADDC4B18D8601E001042F1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25ADDC4C18D8601E001042F1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25ADDC5118D8601E001042F1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25ADDC5218D8601E001042F1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		25ADDC6318D8601E001042F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25ADDC6418D8601E001042F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25ADDC6818D8601E001042F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25ADDC6918D8601E001042F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25ADDC6B18D8601E001042F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizableButtonTest/ResizableButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "ResizableButtonTest/ResizableButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25ADDC6C18D8601E001042F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizableButtonTest/ResizableButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "ResizableButtonTest/ResizableButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		25ADDC6E18D8601E001042F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResizableButtonTest.app/Contents/MacOS/ResizableButtonTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizableButtonTest/ResizableButtonTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ResizableButtonTestTests/ResizableButtonTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		25ADDC6F18D8601E001042F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ResizableButtonTest.app/Contents/MacOS/ResizableButtonTest";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ResizableButtonTest/ResizableButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "ResizableButtonTestTests/ResizableButtonTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25ADDC3418D8601E001042F1 /* Build configuration list for PBXProject "ResizableButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25ADDC6818D8601E001042F1 /* Debug */,
+				25ADDC6918D8601E001042F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25ADDC6A18D8601E001042F1 /* Build configuration list for PBXNativeTarget "ResizableButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25ADDC6B18D8601E001042F1 /* Debug */,
+				25ADDC6C18D8601E001042F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25ADDC6D18D8601E001042F1 /* Build configuration list for PBXNativeTarget "ResizableButtonTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25ADDC6E18D8601E001042F1 /* Debug */,
+				25ADDC6F18D8601E001042F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25ADDC3118D8601E001042F1 /* Project object */;
+}
