@@ -650,22 +650,36 @@
         <window title="ResizableButtonTest" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-            <rect key="contentRect" x="335" y="390" width="480" height="360"/>
+            <rect key="contentRect" x="335" y="390" width="492" height="360"/>
             <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1058"/>
             <view key="contentView" id="372">
-                <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                <rect key="frame" x="0.0" y="0.0" width="492" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <customView translatesAutoresizingMaskIntoConstraints="NO" id="RE0-4q-Tt7" customClass="NKDrawNinePartImageView">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
+                        <rect key="frame" x="0.0" y="0.0" width="492" height="360"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     </customView>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="Wno-gu-Rlk" customClass="NKResizableButton">
+                        <rect key="frame" x="26" y="71" width="440" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="4eo-X9-4Jn"/>
+                        </constraints>
+                        <buttonCell key="cell" type="smallSquare" title="Button" bezelStyle="smallSquare" alignment="center" imageScaling="proportionallyDown" inset="2" id="AgN-zA-D4q">
+                            <behavior key="behavior" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
                 </subviews>
                 <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Wno-gu-Rlk" secondAttribute="trailing" constant="26" id="91y-tp-2wL"/>
                     <constraint firstAttribute="trailing" secondItem="RE0-4q-Tt7" secondAttribute="trailing" id="ee9-eA-UXv"/>
                     <constraint firstItem="RE0-4q-Tt7" firstAttribute="leading" secondItem="372" secondAttribute="leading" id="j6x-T7-N7g"/>
                     <constraint firstAttribute="bottom" secondItem="RE0-4q-Tt7" secondAttribute="bottom" id="odJ-cq-VJ9"/>
                     <constraint firstItem="RE0-4q-Tt7" firstAttribute="top" secondItem="372" secondAttribute="top" id="vcn-1o-2TZ"/>
+                    <constraint firstItem="Wno-gu-Rlk" firstAttribute="leading" secondItem="372" secondAttribute="leading" constant="26" id="wmh-80-euD"/>
+                    <constraint firstAttribute="bottom" secondItem="Wno-gu-Rlk" secondAttribute="bottom" constant="71" id="zIl-Zw-o8K"/>
                 </constraints>
             </view>
         </window>
@@ -678,6 +692,7 @@
         <viewController id="7F3-2x-oHe" customClass="NKTestViewController">
             <connections>
                 <outlet property="ninePartImageView" destination="RE0-4q-Tt7" id="DwL-ph-NLl"/>
+                <outlet property="resizableButton" destination="Wno-gu-Rlk" id="nqj-uR-gNt"/>
             </connections>
         </viewController>
     </objects>

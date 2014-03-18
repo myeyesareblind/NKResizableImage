@@ -9,6 +9,7 @@
 #import "NKTestViewController.h"
 #import "NKDrawNinePartImageView.h"
 #import "NKResizableImage.h"
+#import "NKResizableButton.h"
 
 @interface NKTestViewController ()
 
@@ -27,16 +28,13 @@
 
 - (void)awakeFromNib
 {
-    self.ninePartImageView.image = [[NKResizableImage alloc] initWithImage:[NSImage imageNamed:@"tile_panel.png"]
+    self.ninePartImageView.image = [[NKResizableImage alloc] initWithImage:[NSImage imageNamed:@"tile_panel"]
                                                                 edgeInsets:NSEdgeInsetsMake(0,
                                                                                             44,
                                                                                             5,
                                                                                             5)];
-    double delayInSeconds = 2.0;
-    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
-    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        NSLog(@"frame:%@", NSStringFromRect(self.ninePartImageView.frame));
-    });
+    self.resizableButton.backgroundImage = [[NKResizableImage alloc] initWithImage:[NSImage imageNamed:@"tile_panel"]
+                                                                         edgeInset:5];
 }
 
 - (void)dealloc

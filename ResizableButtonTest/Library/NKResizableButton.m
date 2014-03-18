@@ -7,7 +7,8 @@
 //
 
 #import "NKResizableButton.h"
-#import "NKResizableImage.m"
+#import "NKResizableImage.h"
+
 @interface NKResizableButton ()
 {
     NKResizableImage* m_image;
@@ -43,6 +44,17 @@
         [m_image drawInRect:self.bounds];
     }
 	[super drawRect:dirtyRect];
+}
+
+- (void)setBackgroundImage:(NKResizableImage *)backgroundImage
+{
+    m_image = backgroundImage;
+    [self setNeedsDisplay];
+}
+
+- (NKResizableImage*)backgroundImage
+{
+    return m_image;
 }
 
 @end

@@ -8,9 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class NKDrawNinePartImageView;
+@class NKDrawNinePartImageView, NKResizableButton;
 @interface NKTestViewController : NSViewController
 
+@property (readwrite) IBOutlet NKResizableButton*       resizableButton;
 @property (readwrite) IBOutlet NKDrawNinePartImageView* ninePartImageView;
 
 @end
