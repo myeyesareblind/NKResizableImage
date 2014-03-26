@@ -661,7 +661,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <subviews>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="p8t-e6-XSI" customClass="NKResizableButton">
-                                <rect key="frame" x="153" y="123" width="112" height="111"/>
+                                <rect key="frame" x="159" y="130" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Z6Q-CQ-lvC"/>
@@ -676,7 +676,7 @@
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="p8t-e6-XSI" secondAttribute="bottom" constant="130" id="gtP-CM-BRx"/>
                             <constraint firstItem="p8t-e6-XSI" firstAttribute="leading" secondItem="RE0-4q-Tt7" secondAttribute="leading" constant="159" id="lMQ-Ab-bcw"/>
-                            <constraint firstAttribute="width" constant="492" id="yFw-72-2fa"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="492" id="yFw-72-2fa"/>
                         </constraints>
                     </customView>
                 </subviews>

@@ -18,13 +18,13 @@
 		25ADDC5D18D8601E001042F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25ADDC3C18D8601E001042F1 /* Cocoa.framework */; };
 		25ADDC6518D8601E001042F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC6318D8601E001042F1 /* InfoPlist.strings */; };
 		25ADDC6718D8601E001042F1 /* ResizableButtonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC6618D8601E001042F1 /* ResizableButtonTestTests.m */; };
-		25ADDC7718D860F2001042F1 /* NKResizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC7218D860F2001042F1 /* NKResizableImage.m */; };
-		25ADDC7E18D8860C001042F1 /* NKDrawNinePartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC7D18D8860C001042F1 /* NKDrawNinePartImageView.m */; };
 		25ADDC8018D887FA001042F1 /* tile_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC7F18D887FA001042F1 /* tile_panel.png */; };
 		25ADDC8318D8887D001042F1 /* NKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC8218D8887D001042F1 /* NKTestViewController.m */; };
-		25D27F7318D8AFF0009E7F3E /* NKResizableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D27F7218D8AFF0009E7F3E /* NKResizableButton.m */; };
 		25E9438D18E2D0B2007A4BFB /* button_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E9438B18E2D0B2007A4BFB /* button_hl.png */; };
 		25E9438E18E2D0B2007A4BFB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E9438C18E2D0B2007A4BFB /* button.png */; };
+		25E9439818E2D88D007A4BFB /* NKDrawNinePartImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E9439118E2D88D007A4BFB /* NKDrawNinePartImageView.m */; };
+		25E9439918E2D88D007A4BFB /* NKResizableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E9439318E2D88D007A4BFB /* NKResizableButton.m */; };
+		25E9439A18E2D88D007A4BFB /* NKResizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E9439518E2D88D007A4BFB /* NKResizableImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,17 +57,17 @@
 		25ADDC6218D8601E001042F1 /* ResizableButtonTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResizableButtonTestTests-Info.plist"; sourceTree = "<group>"; };
 		25ADDC6418D8601E001042F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25ADDC6618D8601E001042F1 /* ResizableButtonTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResizableButtonTestTests.m; sourceTree = "<group>"; };
-		25ADDC7118D860F2001042F1 /* NKResizableImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKResizableImage.h; sourceTree = "<group>"; };
-		25ADDC7218D860F2001042F1 /* NKResizableImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKResizableImage.m; sourceTree = "<group>"; };
-		25ADDC7C18D8860C001042F1 /* NKDrawNinePartImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDrawNinePartImageView.h; sourceTree = "<group>"; };
-		25ADDC7D18D8860C001042F1 /* NKDrawNinePartImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKDrawNinePartImageView.m; sourceTree = "<group>"; };
 		25ADDC7F18D887FA001042F1 /* tile_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile_panel.png; sourceTree = "<group>"; };
 		25ADDC8118D8887D001042F1 /* NKTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKTestViewController.h; sourceTree = "<group>"; };
 		25ADDC8218D8887D001042F1 /* NKTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTestViewController.m; sourceTree = "<group>"; };
-		25D27F7118D8AFF0009E7F3E /* NKResizableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKResizableButton.h; sourceTree = "<group>"; };
-		25D27F7218D8AFF0009E7F3E /* NKResizableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKResizableButton.m; sourceTree = "<group>"; };
 		25E9438B18E2D0B2007A4BFB /* button_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_hl.png; sourceTree = "<group>"; };
 		25E9438C18E2D0B2007A4BFB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		25E9439018E2D88D007A4BFB /* NKDrawNinePartImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDrawNinePartImageView.h; sourceTree = "<group>"; };
+		25E9439118E2D88D007A4BFB /* NKDrawNinePartImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKDrawNinePartImageView.m; sourceTree = "<group>"; };
+		25E9439218E2D88D007A4BFB /* NKResizableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKResizableButton.h; sourceTree = "<group>"; };
+		25E9439318E2D88D007A4BFB /* NKResizableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKResizableButton.m; sourceTree = "<group>"; };
+		25E9439418E2D88D007A4BFB /* NKResizableImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKResizableImage.h; sourceTree = "<group>"; };
+		25E9439518E2D88D007A4BFB /* NKResizableImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKResizableImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,7 @@
 		25ADDC3018D8601E001042F1 = {
 			isa = PBXGroup;
 			children = (
+				25E9438F18E2D88D007A4BFB /* Library */,
 				25ADDC4218D8601E001042F1 /* ResizableButtonTest */,
 				25ADDC6018D8601E001042F1 /* ResizableButtonTestTests */,
 				25ADDC3B18D8601E001042F1 /* Frameworks */,
@@ -136,7 +137,6 @@
 				25E9438B18E2D0B2007A4BFB /* button_hl.png */,
 				25E9438C18E2D0B2007A4BFB /* button.png */,
 				25ADDC7F18D887FA001042F1 /* tile_panel.png */,
-				25ADDC7018D860F2001042F1 /* Library */,
 				25ADDC4E18D8601E001042F1 /* NKAppDelegate.h */,
 				25ADDC4F18D8601E001042F1 /* NKAppDelegate.m */,
 				25ADDC5118D8601E001042F1 /* MainMenu.xib */,
@@ -178,15 +178,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		25ADDC7018D860F2001042F1 /* Library */ = {
+		25E9438F18E2D88D007A4BFB /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				25ADDC7C18D8860C001042F1 /* NKDrawNinePartImageView.h */,
-				25ADDC7D18D8860C001042F1 /* NKDrawNinePartImageView.m */,
-				25ADDC7118D860F2001042F1 /* NKResizableImage.h */,
-				25ADDC7218D860F2001042F1 /* NKResizableImage.m */,
-				25D27F7118D8AFF0009E7F3E /* NKResizableButton.h */,
-				25D27F7218D8AFF0009E7F3E /* NKResizableButton.m */,
+				25E9439018E2D88D007A4BFB /* NKDrawNinePartImageView.h */,
+				25E9439118E2D88D007A4BFB /* NKDrawNinePartImageView.m */,
+				25E9439218E2D88D007A4BFB /* NKResizableButton.h */,
+				25E9439318E2D88D007A4BFB /* NKResizableButton.m */,
+				25E9439418E2D88D007A4BFB /* NKResizableImage.h */,
+				25E9439518E2D88D007A4BFB /* NKResizableImage.m */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -293,12 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E9439918E2D88D007A4BFB /* NKResizableButton.m in Sources */,
 				25ADDC8318D8887D001042F1 /* NKTestViewController.m in Sources */,
-				25ADDC7718D860F2001042F1 /* NKResizableImage.m in Sources */,
 				25ADDC4918D8601E001042F1 /* main.m in Sources */,
+				25E9439818E2D88D007A4BFB /* NKDrawNinePartImageView.m in Sources */,
+				25E9439A18E2D88D007A4BFB /* NKResizableImage.m in Sources */,
 				25ADDC5018D8601E001042F1 /* NKAppDelegate.m in Sources */,
-				25D27F7318D8AFF0009E7F3E /* NKResizableButton.m in Sources */,
-				25ADDC7E18D8860C001042F1 /* NKDrawNinePartImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
