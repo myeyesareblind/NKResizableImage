@@ -23,6 +23,8 @@
 		25ADDC8018D887FA001042F1 /* tile_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 25ADDC7F18D887FA001042F1 /* tile_panel.png */; };
 		25ADDC8318D8887D001042F1 /* NKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25ADDC8218D8887D001042F1 /* NKTestViewController.m */; };
 		25D27F7318D8AFF0009E7F3E /* NKResizableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D27F7218D8AFF0009E7F3E /* NKResizableButton.m */; };
+		25E9438D18E2D0B2007A4BFB /* button_hl.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E9438B18E2D0B2007A4BFB /* button_hl.png */; };
+		25E9438E18E2D0B2007A4BFB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 25E9438C18E2D0B2007A4BFB /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		25ADDC8218D8887D001042F1 /* NKTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKTestViewController.m; sourceTree = "<group>"; };
 		25D27F7118D8AFF0009E7F3E /* NKResizableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKResizableButton.h; sourceTree = "<group>"; };
 		25D27F7218D8AFF0009E7F3E /* NKResizableButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKResizableButton.m; sourceTree = "<group>"; };
+		25E9438B18E2D0B2007A4BFB /* button_hl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_hl.png; sourceTree = "<group>"; };
+		25E9438C18E2D0B2007A4BFB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 		25ADDC4218D8601E001042F1 /* ResizableButtonTest */ = {
 			isa = PBXGroup;
 			children = (
+				25E9438B18E2D0B2007A4BFB /* button_hl.png */,
+				25E9438C18E2D0B2007A4BFB /* button.png */,
 				25ADDC7F18D887FA001042F1 /* tile_panel.png */,
 				25ADDC7018D860F2001042F1 /* Library */,
 				25ADDC4E18D8601E001042F1 /* NKAppDelegate.h */,
@@ -262,7 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E9438E18E2D0B2007A4BFB /* button.png in Resources */,
 				25ADDC4718D8601E001042F1 /* InfoPlist.strings in Resources */,
+				25E9438D18E2D0B2007A4BFB /* button_hl.png in Resources */,
 				25ADDC5518D8601E001042F1 /* Images.xcassets in Resources */,
 				25ADDC8018D887FA001042F1 /* tile_panel.png in Resources */,
 				25ADDC4D18D8601E001042F1 /* Credits.rtf in Resources */,

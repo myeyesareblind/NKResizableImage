@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>85A8C172-312C-4B8F-B7A8-5F767F425433</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ResizableButtonTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>79D0DBF4-5224-41DF-B20C-11BF4AB2CE42</key>
+		<string>https://github.com/myeyesareblind/NKResizableImage.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ResizableButtonTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>79D0DBF4-5224-41DF-B20C-11BF4AB2CE42</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/myeyesareblind/NKResizableImage.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>79D0DBF4-5224-41DF-B20C-11BF4AB2CE42</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>79D0DBF4-5224-41DF-B20C-11BF4AB2CE42</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ResizableButtonTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

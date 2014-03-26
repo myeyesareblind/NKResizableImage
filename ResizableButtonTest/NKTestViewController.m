@@ -29,12 +29,15 @@
 - (void)awakeFromNib
 {
     self.ninePartImageView.image = [[NKResizableImage alloc] initWithImage:[NSImage imageNamed:@"tile_panel"]
-                                                                edgeInsets:NSEdgeInsetsMake(0,
+                                                                edgeInsets:NSEdgeInsetsMake(50,
                                                                                             44,
                                                                                             5,
                                                                                             5)];
-    self.resizableButton.backgroundImage = [[NKResizableImage alloc] initWithImage:[NSImage imageNamed:@"tile_panel"]
-                                                                         edgeInset:5];
+    self.resizableButton.backgroundImage = [[NKResizableImage alloc] initWithImage:[NSImage imageNamed:@"button"]
+                                                                         edgeInset:20];
+    
+    self.resizableButton.highlightedBackgroundImage = [[NKResizableImage alloc] initWithImage:[NSImage imageNamed:@"button_hl"]
+                                                                                    edgeInset:20];
 }
 
 - (void)dealloc

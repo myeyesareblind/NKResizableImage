@@ -12,5 +12,6 @@
 @interface NKResizableButton : NSButton
 
 @property (readwrite, nonatomic) NKResizableImage* backgroundImage;
+@property (readwrite, nonatomic) NKResizableImage* highlightedBackgroundImage;
 
 @end

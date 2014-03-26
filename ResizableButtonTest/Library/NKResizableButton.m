@@ -11,23 +11,20 @@
 
 @interface NKResizableButton ()
 {
-    NKResizableImage* m_image;
+    NKResizableImage* m_backgroundImage;
+    NKResizableImage* m_highlightBackgroundImage;
 }
 @end
 
 @implementation NKResizableButton
 
-- (id)initWithFrame:(NSRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code here.
-    }
-    return self;
-}
-
 - (void)drawRect:(NSRect)dirtyRect
 {
+    NSButtonCell* buttonCell = self.cell;
+    NKResizableImage* image = m_highlightBackgroundImage != nil && buttonCell.isHighlighted
+        ? m_highlightBackgroundImage
+        : m_backgroundImage;
+    
     if (self.isFlipped)
     {
         NSAffineTransform*  theAffineTransform = [NSAffineTransform transform];
@@ -35,26 +32,30 @@
         [theAffineTransform translateXBy:0.0
                                      yBy:-self.frame.size.height];
         [theAffineTransform concat];
-        [m_image drawInRect:self.bounds];
+        [image drawInRect:self.bounds];
         [theAffineTransform invert];
         [theAffineTransform concat];
     }
     else
     {
-        [m_image drawInRect:self.bounds];
+        [image drawInRect:self.bounds];
     }
 	[super drawRect:dirtyRect];
 }
 
 - (void)setBackgroundImage:(NKResizableImage *)backgroundImage
 {
-    m_image = backgroundImage;
+    m_backgroundImage = backgroundImage;
     [self setNeedsDisplay];
 }
 
-- (NKResizableImage*)backgroundImage
+- (NKResizableImage*)backgroundImage { return m_backgroundImage; }
+
+- (void)setHighlightedBackgroundImage:(NKResizableImage *)highlightedBackgroundImage
 {
-    return m_image;
+    m_highlightBackgroundImage = highlightedBackgroundImage;
+    [self setNeedsDisplay];
 }
 
+- (NKResizableImage*)highlightedBackgroundImage { return m_highlightBackgroundImage; }
 @end
